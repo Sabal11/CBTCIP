@@ -2,7 +2,7 @@ import random
 
 i = 1
 while i <= 3:
-    In = input("Enter Rock, Paper or scissor: ") 
+    In = input("Enter Rock, Paper or scissor: ")
     In = In.capitalize()
     
     User_actions = ["Rock", "Paper", "Scissor"]
@@ -36,8 +36,3 @@ while i <= 3:
     else:
         print("It's a Tie")
     i = i + 1
-
-
-
-
-
